@@ -17,7 +17,7 @@ npm create vite@latest
 ### Lucide Icons
 
 ```sh
-npm i lucide-react 
+npm install lucide-react 
 ```
 
 ### React Router Dom
