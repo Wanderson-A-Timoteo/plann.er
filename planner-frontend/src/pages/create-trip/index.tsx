@@ -1,4 +1,4 @@
-import { MapPin, Calendar, ArrowRight, UserRoundPlus, Settings2, X, AtSign, Plus, User,  } from 'lucide-react' 
+import { MapPin, Calendar, ArrowRight, UserRoundPlus, Settings2, X, User, Mail  } from 'lucide-react' 
 import { FormEvent, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { InviteGuestsModal } from './invite-guests-modal'
@@ -136,7 +136,12 @@ export function CreateTripPage() {
       </div>
 
       {isGuestsModalOpen && (
-        <InviteGuestsModal />
+        <InviteGuestsModal  
+          emailsToInvite={emailsToInvite}
+          addNewEmailToInvite={addNewEmailToInvite}
+          removeEmailFromInvite={removeEmailFromInvite}
+          closeGuestsModal={closeGuestsModal}
+        />
       )}
 
       {isConfirmTripModalOpen && (
@@ -165,7 +170,7 @@ export function CreateTripPage() {
                 />
               </div>
               <div className="h-14 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
-                <User className="size-5 text-zinc-400" />
+                <Mail className="size-5 text-zinc-400" />
                 <input 
                   type="email" 
                   name="email" 
