@@ -1,6 +1,24 @@
 # Plann.er
 
-React + TypeScript + Vite
+
+
+### Node.js
+
+```sh
+v20.16.0
+```
+
+### Vite + React + TypeScript
+
+```sh
+npm create vite@latest
+```
+
+### Lucide Icons
+
+```sh
+npm i lucide-react 
+```
 
 ### React Router Dom
 
