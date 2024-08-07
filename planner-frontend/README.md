@@ -31,3 +31,9 @@ npm install react-router-dom
 ```sh
 npm install localforage match-sorter sort-by
 ```
+
+### Lib Tailwind Variants
+
+```sh
+npm install tailwind-variants
+```
