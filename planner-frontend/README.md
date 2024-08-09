@@ -37,3 +37,9 @@ npm install localforage match-sorter sort-by
 ```sh
 npm install tailwind-variants
 ```
+
+### Lib React DayPicker
+
+```sh
+npm install react-day-picker date-fns
+```
