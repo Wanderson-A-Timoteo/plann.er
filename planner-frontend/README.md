@@ -43,3 +43,9 @@ npm install tailwind-variants
 ```sh
 npm install react-day-picker date-fns
 ```
+
+### Lib Axios
+
+```sh
+npm install axios
+```
